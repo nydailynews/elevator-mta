@@ -43,25 +43,36 @@ class Logger:
         if hasattr(self.args, 'transit_type') and self.args.transit_type:
             self.transit_type = self.args.transit_type
 
+    def parse_html(self):
+        """
+            Turn the table that contains the out of service elevator data. Returns a dict.
+            >>> args = build_parser([])
+            >>> log = Logger(args)
+            >>> log.get_files(['test.html'])
+            ['test.html']
+            >>> d = log.parse_html('test.html')
+            """
+        pass
+
     def get_files(self, files_from_args):
         """
             >>> args = build_parser([])
             >>> log = Logger(args)
-            >>> log.get_files(['test.xml'])
-            ['test.xml']
+            >>> log.get_files(['test.html'])
+            ['test.html']
             """
         if files_from_args == []:
-            # If we didn't pass any arguments to logger, we download the current XML
+            # If we didn't pass any arguments to logger, we download the current HTML
             rando = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10))
-            url = 'http://web.mta.info/status/serviceStatus.txt?%s' % rando
-            fh = FileWrapper('_input/mta.xml')
+            url = 'http://advisory.mtanyct.info/EEoutage/EEOutageReport.aspx?StationID=All&%s' % rando
+            fh = FileWrapper('_input/mta.html')
             fh.open()
             try:
                 fh.write(fh.request(url))
             except:
                 fh.write(fh.request(url))
             fh.close()
-            files = ['mta.xml']
+            files = ['mta.html']
         else:
             files = files_from_args
             if '*' in files[0]:
