@@ -31,17 +31,13 @@ class Logger:
         self.args = []
         if len(args) > 0:
             self.args = args[0]
-        self.db = Storage('mta')
-        self.mta = ParseMTA(args[0])
+        self.db = Storage('mta-ele')
         self.double_check = { 'in_text': 0, 'objects': 0 }
         self.new = { 'subway': {
-            'starts': dict(zip(dicts.lines['subway'], ([] for i in range(len(dicts.lines['subway']))))),
-            'stops': dict(zip(dicts.lines['subway'], ([] for i in range(len(dicts.lines['subway'])))))
+            'starts': dict(zip(dicts.lines['elevators'], ([] for i in range(len(dicts.lines['elevators']))))),
+            'stops': dict(zip(dicts.lines['elevators'], ([] for i in range(len(dicts.lines['elevators'])))))
             }
         }
-        self.transit_type = 'subway'
-        if hasattr(self.args, 'transit_type') and self.args.transit_type:
-            self.transit_type = self.args.transit_type
 
     def parse_html(self):
         """
