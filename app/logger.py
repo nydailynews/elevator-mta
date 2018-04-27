@@ -6,8 +6,8 @@ import doctest
 import json
 import os, sys
 from datetime import datetime, timedelta
-
-#from filewrapper import FileWrapper
+from bs4 import BeautifulSoup, NavigableString
+from filewrapper import FileWrapper
 #from sqliter import Storage
 import dicts
 
@@ -39,7 +39,7 @@ class Logger:
             }
         }
 
-    def parse_html(self):
+    def parse_html(self, fp):
         """
             Turn the table that contains the out of service elevator data. Returns a dict.
             >>> args = build_parser([])
@@ -48,7 +48,9 @@ class Logger:
             ['test.html']
             >>> d = log.parse_html('test.html')
             """
-        pass
+        fh = FileWrapper(fp)
+        markup = fh.read()
+        
 
     def get_files(self, files_from_args):
         """
@@ -82,8 +84,8 @@ class Logger:
 
 def main(args):
     """ There are two situations we run this from the command line: 
-        1. When building archives from previous day's service alerts and
-        2. When keeping tabs on the current days's service alerts.
+        1. When building archives from logged html of previous outage files
+        2. When keeping tabs on the current elevator outages
 
         Most of what we do here for each is the same, but with #2 we only
         process one file, and we have to look up stored information to ensure
