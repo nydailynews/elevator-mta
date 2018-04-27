@@ -43,6 +43,36 @@ class Logger:
         if hasattr(self.args, 'transit_type') and self.args.transit_type:
             self.transit_type = self.args.transit_type
 
+    def get_files(self, files_from_args):
+        """
+            >>> args = build_parser([])
+            >>> log = Logger(args)
+            >>> log.get_files(['test.xml'])
+            ['test.xml']
+            """
+        if files_from_args == []:
+            # If we didn't pass any arguments to logger, we download the current XML
+            rando = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10))
+            url = 'http://web.mta.info/status/serviceStatus.txt?%s' % rando
+            fh = FileWrapper('_input/mta.xml')
+            fh.open()
+            try:
+                fh.write(fh.request(url))
+            except:
+                fh.write(fh.request(url))
+            fh.close()
+            files = ['mta.xml']
+        else:
+            files = files_from_args
+            if '*' in files[0]:
+                # Wildcard matching on filenames so we can process entire directories
+                # put example of that here.
+                pass
+            if files[0][-1] == '/':
+                # If the arg ends with a forward slash that means it's a dir
+                files = os.listdir(files[0])
+        return files
+
 def main(args):
     """ There are two situations we run this from the command line: 
         1. When building archives from previous day's service alerts and
