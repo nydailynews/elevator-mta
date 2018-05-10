@@ -1,0 +1,1263 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	NYCT - Escalator & Elevator Outage System
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="http://tripplanner.mta.info/template/Redesign/css/mtahome.css" />
+    <script type="text/javascript" src="http://tripplanner.mta.info/template/Redesign/js/templateHeader.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="PublicMasterStyles1.css" /></head>
+
+
+<body>
+    <div id="contentbox" style="padding-left: 0px; vertical-align:top">
+       <form name="aspnetForm" method="post" action="EEOutageReport.aspx?StationID=All" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTQ0NjI2NTE2OQ9kFgJmD2QWAgIDD2QWAgIBD2QWEAIFDw8WAh4EVGV4dAUpIFRoaXMgcGFnZSBsYXN0IHVwZGF0ZWQ6IDA0LzI3LzE4IDQ6NDAgUE1kZAIHDxYCHgdWaXNpYmxlaGQCCQ9kFgJmD2QWAmYPZBYCAgUPEA8WBh4NRGF0YVRleHRGaWVsZAUSQm9yb3VnaERlc2NyaXB0aW9uHg5EYXRhVmFsdWVGaWVsZAULQm9yb3VnaEdVSUQeC18hRGF0YUJvdW5kZ2QQFQYQU2VsZWN0IGEgQm9yb3VnaAVCcm9ueAhCcm9va2x5bglNYW5oYXR0YW4GUXVlZW5zDVN0YXRlbiBJc2xhbmQVBhBTZWxlY3QgYSBCb3JvdWdoJGVkMzg5NWViLWMxNTQtNDA1Yi05MTQxLWYyYzE4NjA3NmRhMiQ1ODRlODQyZi1iYmM2LTRmN2QtOGI3Zi1mMmRkMmRjMzQ0ODkkZmZkOWJiY2ItZTAxMi00NzE4LTkxZmUtZDAzYWEwZTU2ZmViJDBkZGExMWJjLTRhZDEtNDgwOC04NTU5LTg3OGM5YjEzYmQzZSRkOWVjMjJjNi02OGQ0LTRjNTQtYjdjZS1iOGM5ZGMyZmM4MjEUKwMGZ2dnZ2dnFgFmZAILDw8WAh8AZWRkAg0PDxYCHwBlZGQCEQ88KwARAwAPFgQfBGceC18hSXRlbUNvdW50AgpkARAWABYAFgAMFCsAABYCZg9kFhYCAQ9kFhZmD2QWBgIBDw8WAh8ABQRUcnVlZGQCAw8PFgIfAWdkZAIEDxUBBjEyNSBTdGQCAQ9kFgICAQ8PFgIfAAUHQS9CL0MvRGRkAgIPZBYCZg8VAQVFTDE0NGQCAw9kFgJmDxUBFE1FWlpBTklORSBBTkQgVVBUT1dOZAIED2QWAmYPFQETMDQvMjcvMjAxOCAwMjozNCBQTWQCBQ9kFgJmDxUBE1VuZGVyIEludmVzdGlnYXRpb25kAgYPZBYCZg8VARMwNC8yNy8yMDE4IDExOjAwIFBNZAIHD2QWBAIBDw8WAh8ABQEwZGQCAw9kFgICAQ8PFgIfAAUMVHJpcFBsYW5uZXIrFgIeB29uQ2xpY2sFKmphdmFzY3JpcHQ6Z29Ub1RyaXBQbGFubmVyKCk7cmV0dXJuIGZhbHNlO2QCCQ9kFgICAQ8P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" />
+
+
+<script src="/EEOutage/ScriptResource.axd?d=kSDjU0l9eqti6u4veRF6-4VuMk3OGSzoDA-nE9EYsMqDexy93LhYeAnmlQjBlxrojyki3kWhUhvOCx4e4VslVYPVpQj-EInNXN3YP6AlOAyTb2N0bzJUAZil8BiWV2lvpKMuFnpd2h6Fu3tEa381Xrtai1v4-AN5ncP5INrrBWYBYymr0&amp;t=ffffffffb53e74b8" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/EEOutage/ScriptResource.axd?d=Z5Hsr0hW5pQ3s-sjFg35sL5x5TwBde3JdP70bqCqUCVdKUfBxPrQbvi7rF8eQikV2zk7UewGEjRB9Tn9Gv43ZBYwQZZCGacyIlTR5ocnXpX_4rDrrH8r4S79w1_S7PrIguxnwJWGj-RIucIV_HhaCcFd4p41&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=2aCDkvgOClyeY_E7ndPrk3P3xsrLAAvtKeXdJWU4v0N2SbMTKxOGqwWHVpTxrYA5IN5dvbhTVCGM5wdxF4syVoGG4ZDmV2ryWuwM0BTS9OePBA5YY1A7s1CGmKh6dTbS2oNewDdA5YGiRLk8NL-DyN1h2LY1&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=RFpUp-Ki6sg0O5XSfwM5ktVyqrzCqOBHGqOWVe02_GDE8thhL162DLuNrj-SYuxvoE075_Ali13nNZvFZ7y-jNgLMAE8AdxpA73wrQ5O5sIfs9oKT8uq2ySWD3To9JXaIBLc_ZHNjDFs0c8KS6G4fHTocKo1&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=eEXG5JvMDO8kqobNCoHso2CFydQ5ZyaK0-N244ekDy7hsYhuxnREY2HgTKEkS93M3EeV0B12mk9gwJXXoAUlwQ5Z7DAv9wTPkTqNqip2yQowBVGr9zds-kQ3DRkvYDKtcJt6-PtS_lnqwucQcUMg-H_wY-579PBAEmbmjpfWnREof8XW0&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=RPw4U3gyM1t-B2HvL-j0FhaKRBnvLxCIjqgd_2DYWUdtDLamgkHOL0NHFFWW5nwXBn8aXQO7P0rYILRGUC1_bsOzApFDbAwenVgw49WEBWqhRVqHtPbRwOVhul-QzEUtTvnGGERPEu545XDKKaqMjRYTfCB9isDcF1IhaGc0R4ZAvGsf0&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=LU1fWuDDE6NY4IDeP_HmZB91t_pXFWtDMp5jYWWb2FCN4DLr33erYCU0qvH9mTMsMfo3mrM9ay3hv6jBkjzNrtA54U1ixY4k6MyZpoKbqeOXYrdLfGkkCs2_mLV9uY3MY-CVSc_PP9UXyNxMblwjgn9TCi01&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=lap1A8BMmvqjpUXE3rlxYyXC6Dpwc2IanHAXixrqax94FrbV0APteUsQBHYOEuZ9gH-ZlIzBCIlNEgCGEZiuZYcqzD1WDdqc-m1Reg7nf9G5dC8boEcyizfwdVMcXp-xPc93UH6G6Yu2F4h710KuPJd1vqw82Bb_TlNt_LX8NFAJtvB50&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=mEs7Jm20U4-EXZrPTRAlpvwj4dNoirhnV7cvyUda91uMadwB0erqMquKCQ2Dxd_RKebHxnB2NvOw5XqTyH6mK3nCsFor0QBOhFHBrNL9bhAMYSvihKZ11UtkWiy7zQhXuVkO2yhZT9xhMKz6prgWUFcqK1lB7cL1sR8VlnQQKXjVBELz0&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=qmkrs0YgsURXYlsxnj4PVU1oLAj4lryL4RAxJJsRzjDttxYOyNLObVolSkWVGblqyf3h1KmAOzDcPi9iGtVXOgQiIrq_dzgdtXkpf85Jq6CULAW084tarVG3wM9DG8WF4m58jX0PuE-EMHd1cMd-tn7m1rA1&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<script src="/EEOutage/ScriptResource.axd?d=_o_O1aSBgkl1FDPFK269jFR0UCexNVPXh8Gv1BGrSLkCkergHawC7QdflUCnzGvOGuZ_-u8cTorCulrjGHLaNqai_mtkuX_YyYpdxfr0nsJ4oxTlK1Qc3Iwde53EF7bhqGlmKhhUCPqpMyrdZLLC7i-FLg2Tal3X3MTR_8UdxIWNJupX0&amp;t=fffffffff3b04453" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="159DED7C" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAC1kOsg5Ybl7etp4xpjY8Y/S3MfC3IGJJ1bOEab0UPvW0wOkJFD7uMuDwE+Maeii9vgAjnsKuyPFGwbDtUmNdKO2jcCdm/yFchiGSPZCSaWFG8lORtvHzxrjIC6W5cCP8bvYT58YM7KsQVAI7aoWdCMlup9RtaDKaep5dyEQVktqyxx+ZOQbDuFjqQW43UvQDIEKRH1t0rjI238xi7sIx/mmNEVNahgjb0RZEBSCHPfHYeDfbF+ZQxDcIAvoEwwvxsluWr5XPXX7hzYSxhuntgwv3fGNxjQSi+/GIib14axAHCPlSx+hHv7D9MzkkFF0vPyErVM65N9w1WeJ9jEyNFEhjOApsTbJTj5nVhMa/cshxeFiyKY4NL9uOsi093TMOeQQZaJc1YMjnNaDqizPEEknQgAIAM8nYj2fjYUiP2cT4hk9Rrb5dnX4VI9TxT+eL+fLHktrg8anobpBMyWNEy9NJ4aFQIdlgabuEwen7/heB6IK+5KCC6RqeptJdH+xAqkhxX3pZGU6W0YnO2BIbGevESwBZ99Ik+MEpkLrfLYPrbfckGM2jZeBp/3uUUL0W6Kfzzk0Jefi5I9/iwZuSWiEWJigKKNXf+2d8CgnNJyk/ebLkIiuxoZcEbihnoYOwRwPYVkbMGkYcDJ/SkoHFORqvsltMKcPPKNVNws1deCNnzCOkRaPcaIOR1oRNsgs8HUGt/NyqcN5gaEc84KqsSv7oZHruZFncuzUQp6uAwdi06GsMQvqLFZam5dGtfD2SfT9lWL995lwzMgg6I/CJTApdqVfRUVZGkimCsXR7hwDrMuloWlG0XM5zymFQTwmsP60gIQj0sKr/VXVMcgp+Yk5jSiSnA00/YdGzSZAsjr5tFSEIur61Xx0aHX/zFBC4TZO423em9xtIwM12hA3V6feSKZx+n6MYYL/XCHXtnt+KGqi7hz9f3nLJ+o6MrIsPA/ZZ/uHAnuC3RqezrCGp+cexDfDDQ==" />
+            <div id="nestedCol1" >
+              <table style="margin-top: 15px; width: 1000px;">
+                  <tr>
+                      <td valign="top">
+				             <table style="width: 1000px; vertical-align:top;" >
+				                  <tr>
+				                    <td style="padding-left: 5px; padding-right: 2px; width: 1000px;" class="style5">
+					                    
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+	<script type='text/javascript' src='jquery/jquery.autocomplete.js'></script>
+	<link rel="stylesheet" type="text/css" href="jquery/jquery.autocomplete.css" />
+	
+    <script src="jquery/jquery.alerts.js" type="text/javascript"></script> 
+    <script src="jquery/jquery.ui.draggable.js" type="text/javascript"></script> 
+    <script src="jquery/jquery-ui-custom.js" type="text/javascript"></script> 
+    <link href="css/JQuery.Alerts.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="Scripts/EEWebScript.js"  type="text/jscript"></script>
+
+
+
+
+<script language="javascript">
+    function ShowModalPopup(v) {
+        var i = $get('iframewindowcontent');
+        i.src = 'OutageAlternativePathDisplay.aspx?' + v;
+        $find('ModalBehaviour').show();
+    }
+
+    function goToTripPlanner() {
+        window.location.assign("http://tripplanner.mta.info/MyTrip/ui_web/customplanner/tripplanner.aspx?ada=Y");
+    }
+
+    function HideModalPopup() {
+        $find('ModalBehaviour').hide();
+    }
+    function OnKeyPress(args) {
+        if (args.keyCode == Sys.UI.Key.esc) {
+            HideModalPopup();
+        }
+    }
+    $addHandler(document, "keydown", OnKeyPress);
+
+
+</script> 
+
+
+
+
+  <table cellpadding="0" cellspacing="0" width="930px">
+    <tr>
+        <td style="border-bottom: 1px solid black;" width="930px" >
+                <span id="ctl00_ContentPlaceHolder1_Label1" class="pagetitle">Elevator and Escalator Status</span>
+          </td>
+    </tr>
+    <tr>
+        <td style="height: 20px;" width="930px"><span id="ctl00_ContentPlaceHolder1_lblLastUpdated" title="Information"><b><font color="#525257" size="3"> This page last updated: 04/27/18 4:40 PM</font></b></span></td>
+    </tr>
+     
+    <tr>
+        <td width="930px">
+           
+        </td>
+    </tr>
+    <tr>
+       <td width="930px">
+           <table id="ctl00_ContentPlaceHolder1_yourStation" style="width: 930px; vertical-align:bottom;">
+	<tr>
+		<td style="height: 247px;">
+                    
+                     
+                         <br /><span id="ctl00_ContentPlaceHolder1_Label2" class="subheadline">Check Your Station </span><br /><br />
+                         <div >
+                            <label>Enter station  name:    
+                               <input name="ctl00$ContentPlaceHolder1$StationNamei" type="text" id="ctl00_ContentPlaceHolder1_StationNamei" aria-describedby="initInstr" aria-owns="results" aria-expanded="false" aria-autocomplete="both" aria-activedescendant="" aria-label="textbox for Search" />
+                               <span id="initInstr" style="display: none;">When autocomplete results are available use up and down arrows to review and enter to select.</span>
+                            </label>
+                         </div>
+                         <br /><br />
+                         <label> OR</label><br /><br />
+                         <label>Select Borough:&nbsp;&nbsp;
+                         <select name="ctl00$ContentPlaceHolder1$cboBoro" id="ctl00_ContentPlaceHolder1_cboBoro">
+			<option selected="selected" value="Select a Borough">Select a Borough</option>
+			<option value="ed3895eb-c154-405b-9141-f2c186076da2">Bronx</option>
+			<option value="584e842f-bbc6-4f7d-8b7f-f2dd2dc34489">Brooklyn</option>
+			<option value="ffd9bbcb-e012-4718-91fe-d03aa0e56feb">Manhattan</option>
+			<option value="0dda11bc-4ad1-4808-8559-878c9b13bd3e">Queens</option>
+			<option value="d9ec22c6-68d4-4c54-b7ce-b8c9dc2fc821">Staten Island</option>
+
+		</select></label><br /><br />
+                         <label>Select station:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <select name="ctl00$ContentPlaceHolder1$cboStation" id="ctl00_ContentPlaceHolder1_cboStation">
+			<option value="Select a Station">Select a Station</option>
+
+		</select></label><br /><br /><br />
+                         <input type="image" name="ctl00$ContentPlaceHolder1$ImageButton4" id="ctl00_ContentPlaceHolder1_ImageButton4" align="right" valign="bottom" src="images/submit.png" alt="Submit button" align="right" border="0" style="margin-right: 75px;" />
+                    
+                    
+                   </td>
+		<td align="left" valign="bottom" style="height: 247px; width: 437px;">
+                       <img id="E-Alerts-up" src="images/E_E_ad_2.png" usemap="#E-Alerts" alt=""  align="right"    />
+                       <map name="E-Alerts" id="E-Alerts-ImageMaps">
+                            <area  alt="Singn up for E-Alerts" title="Singn up for E-Alerts" 
+                               href="http://advisory.mtanyct.info/EEoutage/Signup.aspx" shape="rect" 
+                               coords="16, 143, 323, 166" style="outline:none;" target="_self"/>
+                            <area  alt="TripPlanner" title="Need help planning your trip?" 
+                               href="http://tripplanner.mta.info/MyTrip/ui_web/customplanner/tripplanner.aspx" 
+                               shape="rect" coords="17, 170, 408, 191" style="outline:none;" target="_self"/>
+                       </map>
+                    </td>
+	</tr>
+</table>
+
+       </td>
+    </tr>
+         
+    <tr>
+         <td><span id="ctl00_ContentPlaceHolder1_stationName" class="StationName"></span></td>
+    </tr>
+    <tr> 
+         <td ><span id="ctl00_ContentPlaceHolder1_message" style="display:inline-block;"><b><font face="Tahoma" color="Red" size="3"></font></b></span> </td>
+    </tr>  
+    <tr id="ctl00_ContentPlaceHolder1_imElevators">
+	<td style="background-color: #cccccc;">
+             <table border="0" cellpadding="2" cellspacing="2">
+                 <tr>
+                     <td><img alt="Elevators" src="images/elevator_graphic.png"  /></td>
+                     <td valign="middle" class="StationName">&nbsp;&nbsp;Out of Service Elevators</td>
+                 </tr>
+             </table>
+         </td>
+</tr>
+
+    <tr>
+         <td valign="top" style="width: 930px;" >
+             <div>
+	<table cellspacing="0" cellpadding="2" ItemStyle-Height="50px" border="0" id="ctl00_ContentPlaceHolder1_gvElevator" width="930">
+		<tr class="GridHeader" bgcolor="Black">
+			<th scope="col" width="140">Station Name</th><th scope="col" width="120">Train Lines</th><th scope="col" width="80">Number</th><th scope="col" width="210">Location</th><th scope="col" width="70">Out of Service</th><th scope="col" width="70">Reason</th><th scope="col" width="70">Estimated Return</th><th scope="col" width="130">Plan Your Trip</th>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl02_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               125 St
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/A_20x20.png" alt="A line subway" border="0" /><img src="images/B_20x20.png" alt="B line subway" border="0" /><img src="images/C_20x20.png" alt="C line subway" border="0" /><img src="images/D_20x20.png" alt="D line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL144
+                              
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>MEZZANINE AND UPTOWN</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 02:34 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl02_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl02$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               
+                               28 St
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/6_20x20.png" alt="6 line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL279X
+                             <span id="ctl00_ContentPlaceHolder1_gvElevator_ctl03_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span> 
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/26/2018 12:00 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  8:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl03_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl03$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               
+                               42 St - Bryant Park
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/B_20x20.png" alt="B line subway" border="0" /><img src="images/D_20x20.png" alt="D line subway" border="0" /><img src="images/F_20x20.png" alt="F line subway" border="0" /><img src="images/M_20x20.png" alt="M line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL295X
+                             <span id="ctl00_ContentPlaceHolder1_gvElevator_ctl04_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span> 
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>NW Corner of 39th & 6th</h4>  
+                         </td><td width="70">  
+                             <h4>04/20/2018 01:27 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  8:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl04_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl04$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl05_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               66 St - Lincoln Center
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/1_20x20.png" alt="1 line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL237
+                              
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE & UPTOWN PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 04:40 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Maintenance</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl05_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl05$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl06_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               96 St
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/1_20x20.png" alt="1 line subway" border="0" /><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/3_20x20.png" alt="3 line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL146
+                              
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>STREET TO UPTOWN PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 10:05 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Maintenance</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 10:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl06_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl06$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl07_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               Aqueduct Racetrack
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/A_20x20.png" alt="A line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL489X
+                             <span id="ctl00_ContentPlaceHolder1_gvElevator_ctl07_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span> 
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>STREET TO PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/24/2018 09:00 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  5:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl07_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl07$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl08_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               Atlantic Av-Barclays Ctr
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/3_20x20.png" alt="3 line subway" border="0" /><img src="images/4_20x20.png" alt="4 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /><img src="images/B_20x20.png" alt="B line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /><img src="images/LIRR.png" alt="Long Island Rail Road" border="0" /></h4></td><td width="80">
+                            <h4>EL700X
+                             <span id="ctl00_ContentPlaceHolder1_gvElevator_ctl08_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span> 
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 04:34 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018  1:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl08_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl08$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl09_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               Canal St
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/6_20x20.png" alt="6 line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL324
+                              
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>STREET TO UPTOWN PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/17/2018 09:39 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Station Is Under Rehabilitation</h4>  
+                         </td><td width="70">  
+                             <h4>05/28/2018  1:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:ShowModalPopup(&#39;KeyField=d7ebbc29-0d08-4bb2-87f1-1a8adf7c7068&amp;Type=1&amp;StationInfo= on  at  Station.&#39;);return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl09_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl09$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">Travel Alternative(s)</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl10_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               Church Av
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/F_20x20.png" alt="F line subway" border="0" /><img src="images/G_20x20.png" alt="G line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL375
+                              
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>MEZZANINE TO DOWNTOWN</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 02:29 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl10_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl10$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                          
+                            
+                           <h4>
+                               <img id="ctl00_ContentPlaceHolder1_gvElevator_ctl11_imgADA" title="ADA-compliant" src="images/wheel_chair.png" alt="Wheelchair Icon" border="0" />
+                               Myrtle Av / Wyckoff Av
+                           </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/L_20x20.png" alt="L line subway" border="0" /><img src="images/M_20x20.png" alt="M line subway" border="0" /></h4></td><td width="80">
+                            <h4>EL397
+                              
+                             </h4>                                   
+                         </td><td width="210">  
+                             <h4>MEZZANINE TO PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 03:40 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018 12:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvElevator_ctl11_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvElevator$ctl11$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                                
+                             
+                         </td>
+		</tr>
+	</table>
+</div>
+         </td>
+    </tr>
+
+    <tr>
+        <td style="height: 14px">
+                <span id="ctl00_ContentPlaceHolder1_ElevatorMessage" class="pagebody"></span>
+        </td>
+    </tr>
+    <tr> <td style="height: 27px"></td> 
+    </tr>
+    <tr id="ctl00_ContentPlaceHolder1_imEscalators">
+	<td style="background-color: #cccccc;">
+            <table border="0" cellpadding="2" cellspacing="2">
+                <tr>
+                    <td><img alt="Escalators" src="images/escalator.png"  /></td>
+                    <td valign="middle" class="StationName">&nbsp;&nbsp;Out of Service Escalators &amp; Power Walk&nbsp;&nbsp;</td>
+                    <td><img alt="Power Walk" src="images/power_walk_image.png"  /></td>
+                </tr>
+            </table>
+        </td>
+</tr>
+
+    <tr>
+         <td valign="top" style="width: 930px;">
+             <div>
+	<table cellspacing="0" cellpadding="2" ItemStyle-Height="50px" border="0" id="ctl00_ContentPlaceHolder1_gvEscalator" width="930">
+		<tr class="GridHeader" bgcolor="Black">
+			<th scope="col" width="140">Station Name</th><th scope="col" width="120">Train Lines</th><th scope="col" width="80">Number</th><th scope="col" width="210">Location</th><th scope="col" width="70">Out of Service</th><th scope="col" width="70">Reason</th><th scope="col" width="70">Estimated Return</th><th scope="col" width="130">Plan Your Trip</th>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                125 St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/1_20x20.png" alt="1 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES101
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/26/2018 09:09 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Maintenance</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl02_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl02$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                14 St - Union Sq
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/L_20x20.png" alt="L line subway" border="0" /><img src="images/N_20x20.png" alt="N line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /><img src="images/R_20x20.png" alt="R line subway" border="0" /><img src="images/W_20x20.png" alt="W line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES258X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl03_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE ALL TRAINS</h4>  
+                         </td><td width="70">  
+                             <h4>04/25/2018 09:26 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  8:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl03_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl03$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                34 St - Herald Sq
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/B_20x20.png" alt="B line subway" border="0" /><img src="images/D_20x20.png" alt="D line subway" border="0" /><img src="images/F_20x20.png" alt="F line subway" border="0" /><img src="images/M_20x20.png" alt="M line subway" border="0" /><img src="images/N_20x20.png" alt="N line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /><img src="images/R_20x20.png" alt="R line subway" border="0" /><img src="images/W_20x20.png" alt="W line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES221
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>MALL LANDING TO STREET</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 10:30 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Maintenance</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl04_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl04$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                42 St - Grand Central
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/4_20x20.png" alt="4 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /><img src="images/6_20x20.png" alt="6 line subway" border="0" /><img src="images/7_20x20.png" alt="7 line subway" border="0" /><img src="images/S_20x20.png" alt="S line subway" border="0" /><img src="images/METRO-NORTH.png" alt="METRO-NORTH Railroad" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES209
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>CENTER ISLAND PLATFORM TO LOWER MEZZANINE (WEST END)</h4>  
+                         </td><td width="70">  
+                             <h4>04/23/2018 05:30 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>05/01/2018  5:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl05_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl05$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                42 St - Grand Central
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/4_20x20.png" alt="4 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /><img src="images/6_20x20.png" alt="6 line subway" border="0" /><img src="images/7_20x20.png" alt="7 line subway" border="0" /><img src="images/S_20x20.png" alt="S line subway" border="0" /><img src="images/METRO-NORTH.png" alt="METRO-NORTH Railroad" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES255
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>UPPER MEZZANINE TO STREET (GC TERMINAL)</h4>  
+                         </td><td width="70">  
+                             <h4>04/21/2018 08:57 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>05/07/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl06_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl06$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                50 St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/C_20x20.png" alt="C line subway" border="0" /><img src="images/E_20x20.png" alt="E line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES264X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl07_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>MEZZANINE TO E TRAIN PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 02:00 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  6:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl07_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl07$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                50 St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/C_20x20.png" alt="C line subway" border="0" /><img src="images/E_20x20.png" alt="E line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES263X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl08_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 02:00 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  6:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl08_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl08$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                51 St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/6_20x20.png" alt="6 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES252
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>MEZZANINE TO PLATFORM</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 02:55 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl09_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl09$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                96 St / 2 Av
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/Q_20x20.png" alt="Q line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES220
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>PLATFORM TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 03:52 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018 12:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl10_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl10$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Atlantic Av-Barclays Ctr
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/3_20x20.png" alt="3 line subway" border="0" /><img src="images/4_20x20.png" alt="4 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /><img src="images/B_20x20.png" alt="B line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /><img src="images/LIRR.png" alt="Long Island Rail Road" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES358X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl11_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>LOWER MEZZANINE TO STREET</h4>  
+                         </td><td width="70">  
+                             <h4>04/17/2018 12:05 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  8:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl11_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl11$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Brighton Beach
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/B_20x20.png" alt="B line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES346
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 01:12 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 10:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl12_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl12$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Columbus Circle
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/1_20x20.png" alt="1 line subway" border="0" /><img src="images/A_20x20.png" alt="A line subway" border="0" /><img src="images/B_20x20.png" alt="B line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES251X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl13_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE ALL TRAINS</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 12:51 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  9:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl13_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl13$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Fulton St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/A_20x20.png" alt="A line subway" border="0" /><img src="images/C_20x20.png" alt="C line subway" border="0" /><img src="images/J_20x20.png" alt="J line subway" border="0" /><img src="images/Z_20x20.png" alt="Z line subway" border="0" /><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/3_20x20.png" alt="3 line subway" border="0" /><img src="images/4_20x20.png" alt="4 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES367
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>LOWER MEZZANINE TO UPPER MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/26/2018 06:21 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018  3:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl14_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl14$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Fulton St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/A_20x20.png" alt="A line subway" border="0" /><img src="images/C_20x20.png" alt="C line subway" border="0" /><img src="images/J_20x20.png" alt="J line subway" border="0" /><img src="images/Z_20x20.png" alt="Z line subway" border="0" /><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/3_20x20.png" alt="3 line subway" border="0" /><img src="images/4_20x20.png" alt="4 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES362X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl15_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>TRANSIT CENTER</h4>  
+                         </td><td width="70">  
+                             <h4>04/22/2018 01:01 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>05/16/2018  3:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl15_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl15$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Gun Hill Rd
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES104
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>01/02/2018 06:36 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/30/2018  7:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl16_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl16$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                High St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/A_20x20.png" alt="A line subway" border="0" /><img src="images/C_20x20.png" alt="C line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES323
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>LOWER MEZZANINE TO UPPER MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 03:50 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018 12:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl17_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl17$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Intervale Av
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/5_20x20.png" alt="5 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES108
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 04:11 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018  1:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl18_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl18$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Jackson Hts - Roosevelt Av
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/E_20x20.png" alt="E line subway" border="0" /><img src="images/F_20x20.png" alt="F line subway" border="0" /><img src="images/M_20x20.png" alt="M line subway" border="0" /><img src="images/R_20x20.png" alt="R line subway" border="0" /><img src="images/7_20x20.png" alt="7 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES453
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>LOWER MEZZANINE TO UPPER MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/12/2018 04:29 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>05/03/2018 11:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl19_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl19$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Jackson Hts - Roosevelt Av
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/E_20x20.png" alt="E line subway" border="0" /><img src="images/F_20x20.png" alt="F line subway" border="0" /><img src="images/M_20x20.png" alt="M line subway" border="0" /><img src="images/R_20x20.png" alt="R line subway" border="0" /><img src="images/7_20x20.png" alt="7 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES450
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>LOWER MEZZANINE TO UPPER MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 04:02 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Under Investigation</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018  1:00 AM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl20_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl20$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Jamaica - Van Wyck
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/E_20x20.png" alt="E line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES431
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>MEZZANINE TO STREET</h4>  
+                         </td><td width="70">  
+                             <h4>04/24/2018 06:17 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018 10:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl21_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl21$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Lexington Av / 63 St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/F_20x20.png" alt="F line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES403
+                                    
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>UPPER MEZZANINE TO MIDDLE MEZZANINE</h4>  
+                         </td><td width="70">  
+                             <h4>04/26/2018 11:06 AM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/28/2018  5:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl22_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl22$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr><tr class="GridAlternatingRowStyle">
+			<td align="left" width="180">  
+                            
+                            <h4>
+                                
+                                Times Sq - 42 St
+                            </h4>
+                         </td><td align="center" width="120">  
+                              
+                         <h4><img src="images/N_20x20.png" alt="N line subway" border="0" /><img src="images/Q_20x20.png" alt="Q line subway" border="0" /><img src="images/R_20x20.png" alt="R line subway" border="0" /><img src="images/S_20x20.png" alt="S line subway" border="0" /><img src="images/W_20x20.png" alt="W line subway" border="0" /><img src="images/1_20x20.png" alt="1 line subway" border="0" /><img src="images/2_20x20.png" alt="2 line subway" border="0" /><img src="images/3_20x20.png" alt="3 line subway" border="0" /><img src="images/7_20x20.png" alt="7 line subway" border="0" /></h4></td><td width="80">
+                            <h4>
+                                 ES262X
+                                 <span id="ctl00_ContentPlaceHolder1_gvEscalator_ctl23_lblNonMTA"><b><font face="Tahoma" color="#065506">*</font></b></span>   
+                             </h4>                                 
+                         </td><td width="210">  
+                             <h4>STREET TO MEZZANINE ALL TRAINS</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018 12:51 PM</h4>  
+                         </td><td width="70">  
+                             <h4>Repair</h4>  
+                         </td><td width="70">  
+                             <h4>04/27/2018  9:00 PM</h4>  
+                         </td><td width="130">
+                             
+                                                                 
+                                <h4> <a onclick="javascript:goToTripPlanner();return false;" id="ctl00_ContentPlaceHolder1_gvEscalator_ctl23_lnkAlternativePath" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvEscalator$ctl23$lnkAlternativePath&#39;,&#39;&#39;)"><font color="Blue">TripPlanner+</font></a></h4>
+                             
+                         </td>
+		</tr>
+	</table>
+</div>
+         </td>
+    </tr>
+    <tr>
+         <td>
+             <span id="ctl00_ContentPlaceHolder1_EscalatorMessage" class="pagebody"></span>                     
+             <div id="ctl00_ContentPlaceHolder1_pnlAsterisk" class="AsteriskPanel">
+	 
+                 <p><span style="color: #065506; font-size: x-large;"><strong>*</strong></span>
+                     <span style="font-size: x-large"></span>
+                 <span style="color: black; font-size: medium;">&nbsp;&nbsp;Non-MTA NYC Transit Equipment; outage reported to responsible party.</span></p>
+             
+</div>
+         </td>
+    </tr>
+  </table>
+    <div id="ctl00_ContentPlaceHolder1_Panel1" class="modalPopup" style="display: none">
+	
+            <div id="ctl00_ContentPlaceHolder1_Panel2" style="background-color:#ffffff;border:solid 1px Gray;color:Black; height:365px">
+		
+            <iframe id="iframewindowcontent" class="PopIframe" scrolling="auto" src="#" style="margin:0;WIDTH:100%;Height:100%" frameborder="0" marginheight="0" marginwidth="0">
+            </iframe>                                                              
+            
+	</div>
+            <div align="center" style="padding-top:5px;padding-bottom:5px">               
+               <input type="submit" name="ctl00$ContentPlaceHolder1$CancelButton" value="Cancel" id="ctl00_ContentPlaceHolder1_CancelButton" class="submitbtn" />
+            </div>
+    
+</div>
+    <input name="ctl00$ContentPlaceHolder1$hiddenSelectedStationName" type="hidden" id="ctl00_ContentPlaceHolder1_hiddenSelectedStationName" />
+    <input type="submit" name="ctl00$ContentPlaceHolder1$HiddenForModal" value="" id="ctl00_ContentPlaceHolder1_HiddenForModal" style="display: none" />    
+            
+ 
+ <script type="text/javascript">
+     function findValue(li) {
+
+         document.getElementById('ctl00_ContentPlaceHolder1_hiddenSelectedStationName').value = ""
+
+         if (li == null) {
+             return "";
+         }
+
+         // if coming from an AJAX call, let's use the CityId as the value
+         //if (!!li.extra) var sValue = li.extra[0];
+
+         // otherwise, let's just display the value in the text box
+         else var sValue = li.selectValue;
+
+         document.getElementById('ctl00_ContentPlaceHolder1_hiddenSelectedStationName').value = sValue;
+
+     }
+
+     function selectItem(li) {
+         findValue(li);
+         lookupLocal();
+     }
+
+     function formatItem(row) {
+         return row[0] + " (id: " + row[1] + ")";
+     }
+
+     function lookupLocal() {
+         var oSuggest = $("#ctl00_ContentPlaceHolder1_StationNamei")[0].autocompleter;
+         oSuggest.findValue();
+         return false;
+     }
+     $(document).ready(function () {
+
+         $("#ctl00_ContentPlaceHolder1_StationNamei").autocompleteArray(
+			StationListArray,
+		{
+		    delay: 10,
+		    minChars: 1,
+		    matchSubset: 1,
+		    onItemSelect: selectItem,
+		    onFindValue: findValue,
+		    autoFill: false, //true will select first find value in the list
+		    maxItemsToShow: 50
+		}
+	);
+     });
+    
+    
+    
+    
+</script>
+
+ 
+ 
+     
+
+				                    </td>
+				                  </tr>
+				              </table>
+                       </td>
+                   </tr>
+              </table>
+             </div>
+			 <div class="container clear">
+				<div class="span-15" style="text-align: left;" style="margin-right: 12px;">
+					<div id="translate">
+						<div id="google_translate_element">
+							<div id="temp_GT" class="span-15">
+								<ul style="margin: 0;">
+									<li class="list_f last_list_f first_list_f"><span style="color: #0055AA; font-weight: bold; margin-right: 5px; font-size:13px; font-family: Arial, Helvetica, sans-serif">Google Translate</span><img style="vertical-align: baseline;" src="http://web.mta.info/siteimages/google_logo.png" alt="" /></li>
+								</ul>
+							</div>
+						</div><!-- close google_translate_element -->
+					</div><!-- close translate -->
+				</div><!-- close span-14 last -->
+			</div> <!-- Close of Container -->
+
+
+			<script>
+			    function googleTranslateElementInit() {
+			        new google.translate.TranslateElement({
+			            pageLanguage: 'en',
+			            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			        }, 'google_translate_element');
+			    }
+
+			    $("#temp_GT").click(function () {
+			        var fileref = document.createElement('script');
+			        fileref.setAttribute("type", "text/javascript");
+			        fileref.setAttribute("src", "http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit");
+
+			        document.getElementsByTagName("head")[0].appendChild(fileref);
+			        $("#temp_GT").hide();
+			    });
+			</script>
+        
+<script language="javascript" type="text/javascript">function GetStationArray(){var StationListArray = new Array();StationListArray[0] = 'Court Square - G/7';StationListArray[1] = 'Whitehall St - South Ferry - R/W';StationListArray[2] = 'Aqueduct Racetrack - A';StationListArray[3] = 'Fulton St - J/Z';StationListArray[4] = 'Intervale Av - 2/5';StationListArray[5] = 'Kingsbridge Road - D/B';StationListArray[6] = '34 St - Penn - 1/2/3/LIRR';StationListArray[7] = 'Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/LIRR';StationListArray[8] = '8 Av - L';StationListArray[9] = '181 St - 1';StationListArray[10] = 'Jay St - MetroTech - A/C/F/R';StationListArray[11] = '125 St - 1';StationListArray[12] = 'Broadway Junction - A/C/J/L/Z/LIRR';StationListArray[13] = '233 St - 2/5';StationListArray[14] = '125 St - A/B/C/D';StationListArray[15] = 'Times Sq - 42 St - N/Q/R/S/W/1/2/3/7';StationListArray[16] = 'Lexington Av / 59 St - N/R/W';StationListArray[17] = 'Fordham Rd - 4';StationListArray[18] = 'Borough Hall - 2/3/4/5';StationListArray[19] = 'Jamaica Center Parsons/Archer - E/J';StationListArray[20] = '57 St - 7 Av - N/Q/R/W';StationListArray[21] = 'Lexington Av / 63 St - F/Q';StationListArray[22] = '231 St - 1';StationListArray[23] = 'Roosevelt Island - F';StationListArray[24] = 'West 4 St - Washington Sq - A/B/C/D/E/F/M';StationListArray[25] = 'Cortlandt St - 1';StationListArray[26] = '205 St - Norwood - D';StationListArray[27] = '59 St - 4/5/6';StationListArray[28] = '5 Av / 53 St - E/M';StationListArray[29] = 'Cortlandt St - R/W';StationListArray[30] = 'Dyckman St - 1';StationListArray[31] = '72 St / 2 Av - Q';StationListArray[32] = 'Wall St - 2/3';StationListArray[33] = 'Brighton Beach - B/Q';StationListArray[34] = 'Bowery - J/Z';StationListArray[35] = '207 St - Inwood - A';StationListArray[36] = '168 St - 1';StationListArray[37] = 'Kings Highway - B/Q';StationListArray[38] = '50 St - C/E';StationListArray[39] = 'Chambers St - 1/2/3';StationListArray[40] = 'Sutphin Blvd - Archer Av - JFK Airport - E/J/Z/LIRR';StationListArray[41] = '14 St - L';StationListArray[42] = 'Parkchester - 6';StationListArray[43] = 'Clark St - 2/3';StationListArray[44] = 'Broadway-Lafayette/Bleecker St - B/D/F/6';StationListArray[45] = 'Jamaica - Van Wyck - E';StationListArray[46] = '49 St - N/Q/R/W';StationListArray[47] = 'Fulton St - 4/5';StationListArray[48] = '59 St - Columbus Cir - 1/A/B/C/D';StationListArray[49] = 'Kew Gardens / Union Tpk - E/F';StationListArray[50] = '23 St - 6';StationListArray[51] = 'West 8 St - NY Aquarium - F/Q';StationListArray[52] = '66 St - Lincoln Center - 1';StationListArray[53] = 'Hunts Point - 6';StationListArray[54] = 'Marcy Av - J/M/Z';StationListArray[55] = '42 St - Bryant Park - B/D/F/M';StationListArray[56] = 'Utica Av - A/C';StationListArray[57] = 'Park Place - 2/3';StationListArray[58] = '61 St - Woodside - 7';StationListArray[59] = 'Franklin Av - C/S';StationListArray[60] = '86 St / 2 Av - Q';StationListArray[61] = '125 St - 4/5/6/METRO-NORTH';StationListArray[62] = '51 St - 6';StationListArray[63] = '42 St - Port Authority Bus Terminal - A/C/E';StationListArray[64] = '7 Av - B/D/E';StationListArray[65] = '34 St - Penn - A/C/E';StationListArray[66] = 'Briarwood/Van Wyck Blvd - E/F';StationListArray[67] = 'Smith - 9 Sts - F/G';StationListArray[68] = '135 St - 2/3';StationListArray[69] = '161 St - Yankee Stadium - 4/B/D';StationListArray[70] = 'Court Square - 23 St - E/M';StationListArray[71] = 'Columbus Circle - 1/A/B';StationListArray[72] = 'Church Av - F/G';StationListArray[73] = '14 St - Union Sq - L/N/Q/R/W';StationListArray[74] = '145 St - A/B/C/D';StationListArray[75] = '28 St - 6';StationListArray[76] = 'Fulton St - A/C/J/Z/2/3/4/5';StationListArray[77] = 'Euclid Av - A/C';StationListArray[78] = 'Bay Parkway - D/M';StationListArray[79] = 'Delancey St Essex St - F/J/M/Z';StationListArray[80] = 'Pelham Pkwy - 2/5';StationListArray[81] = 'Lexington Av / 53 St - E/M';StationListArray[82] = 'Bowling Green - 4/5';StationListArray[83] = 'East 180 St - 2/5';StationListArray[84] = 'Canal St - 6';StationListArray[85] = 'Crown Hts - Utica Av - 3/4';StationListArray[86] = 'Simpson St - 2/5';StationListArray[87] = '179 St - Jamaica - F';StationListArray[88] = 'Pelham Bay Park - 6';StationListArray[89] = 'Gun Hill Rd - 2/5';StationListArray[90] = 'Far Rockaway - Mott Av - A';StationListArray[91] = 'Atlantic Av-Barclays Ctr - D/N/R';StationListArray[92] = 'Flushing Main St - 7';StationListArray[93] = '190 St - A';StationListArray[94] = '191 St - 1';StationListArray[95] = 'Myrtle Av / Wyckoff Av - L/M';StationListArray[96] = 'East Broadway - F';StationListArray[97] = 'Brooklyn Bridge - City Hall - 4/5/6';StationListArray[98] = 'Fulton St - 2/3';StationListArray[99] = '47-50 St - Rockefeller Ctr - B/D/F/M';StationListArray[100] = '149 St - 3 Av - 2/5';StationListArray[101] = 'Court St - R';StationListArray[102] = 'President St - 2/5';StationListArray[103] = 'Junction Blvd - 7';StationListArray[104] = 'Prospect Park - B/Q/S';StationListArray[105] = 'Flatbush Av Brooklyn College - 2/5';StationListArray[106] = '34 St - Hudson Yards - 7';StationListArray[107] = 'Ozone Park / Lefferts Blvd - A';StationListArray[108] = '96 St - 1/2/3';StationListArray[109] = '599 Lexington Av - E/M';StationListArray[110] = '34 St - Herald Sq - B/D/F/M/N/Q/R/W';StationListArray[111] = 'Dekalb Av - B/Q/R';StationListArray[112] = '42 St - Grand Central - 4/5/6/7/S/METRO-NORTH';StationListArray[113] = '21 St - Queensbridge - F';StationListArray[114] = 'High St - A/C';StationListArray[115] = 'Howard Beach - A';StationListArray[116] = 'Unassigned - Z,K';StationListArray[117] = '168 St - A/C';StationListArray[118] = '96 St / 2 Av - Q';StationListArray[119] = '14 St - A/C/E';StationListArray[120] = 'Coney Island Stillwell Av - D/F/N/Q';StationListArray[121] = 'West Farms Sq - E Tremont Av - 2/5';StationListArray[122] = '175 St - A';StationListArray[123] = '59 St - Columbus Cir - A/B/C/D';StationListArray[124] = 'South Ferry - 1';StationListArray[125] = '72 St - 1/2/3';StationListArray[126] = '181 St - A';StationListArray[127] = 'Jackson Hts - Roosevelt Av - E/F/M/R/7';StationListArray[128] = 'Queens Plaza - E/R/M';StationListArray[129] = 'Flushing Av - J/M';StationListArray[130] = 'Forest Hills - 71 Av - E/F/G/R/M/LIRR';StationListArray[131] = 'Church Av - 2/5';return StationListArray;}var StationListArray = GetStationArray();</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"ctl00_ContentPlaceHolder1_CancelButton","DropShadow":true,"DynamicServicePath":"/EEoutage/EEOutageReport.aspx","PopupControlID":"ctl00_ContentPlaceHolder1_Panel1","X":120,"Y":120,"id":"ModalBehaviour"}, null, null, $get("ctl00_ContentPlaceHolder1_HiddenForModal"));
+});
+//]]>
+</script>
+</form>
+    </div>
+	 <!-- End Content -->
+</body>    
+
+
+<!-- close mainbox from templateHeader.js -->
+
+</html>
