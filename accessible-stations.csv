@@ -87,29 +87,29 @@ station-name,is-accessible,borough,lines,number-of-elevators,is-northbound-only,
 5 Av,,,,,,,,
 5 Av/ 59 St,,,,,,,,
 5 Av/53 St,,,,,,,,
-50 St,1,manhattan,ce,1,,,,
-51 St,1,manhattan,46,1,,,,
+50 St,1,manhattan,ce,1,,,,,40.762456,-73.985984
+51 St,1,manhattan,46,1,,,40.757107,-73.97192
 52 St,,,,,,,,
 53 St,,,,,,,,
 55 St,,,,,,,,
 57 St,,,,,,,,
 57 St - 7 Av,,,,,,,,
 59 St,,,,,,,,
-59th St/Columbus Circle,1,manhattan,abcd12,2,,1,,
+59th St/Columbus Circle,1,manhattan,abcd12,2,,1,40.768296,-73.981736
 6 Av,,,,,,,,
-61 St/Woodside,1,queens,7,1,,,,
+61 St/Woodside,1,queens,7,1,,,40.74563,-73.902984
 62 St,,,,,,,,
 63 Dr - Rego Park,,,,,,,,
 65,,,,,,,,
 65 St,,,,,,,,
-66 St/Lincoln Center,1,manhattan,12,2,1,1,,
+66 St/Lincoln Center,1,manhattan,12,2,1,1,40.77344,-73.982209
 67 Av,,,,,,,,
 68 St/Hunter College,,,,,,,,
 69 St,,,,,,,,
 7 Av,,,,,,,,
 71 St,,,,,,,,
-72 St,1,manhattan,123,2,1,1,,
-72 St,1,manhattan,q,1,,,,
+72 St,1,manhattan,123,2,1,1,,40.778453,-73.98197
+72 St,1,manhattan,q,1,,40.768799,-73.958424
 74 St - Broadway,,,,,,,,
 75 Av,,,,,,,,
 75 St - Elderts Ln,,,,,,,,
@@ -120,21 +120,21 @@ station-name,is-accessible,borough,lines,number-of-elevators,is-northbound-only,
 81 St - Museum of Natural History,,,,,,,,
 82/Jackson ,,,,,,,,
 85 St - Forest Pkwy,,,,,,,,
-86 St,1,manhattan,q,1,,,,
+86 St,1,manhattan,q,1,,,40.777891,-73.951787
 9 Av,,,,,,,,
 90 St - Elmhurst Av,,,,,,,,
-96 St,1,manhattan,123,2,,,,
-96 St,1,manhattan,q,1,,,,
+96 St,1,manhattan,123,2,,,40.793919,-73.972323
+96 St,1,manhattan,q,1,,,40.784318,-73.947152
 Alabama Av,,,,,,,,
 Allerton Av,,,,,,,,
-Aqueduct - North Conduit Av,1,queens,a,1,,,,
+Aqueduct - North Conduit Av,1,queens,a,1,,,40.668234,-73.834058
 Astor Pl,,,,,,,,
 Astoria Blvd,,,,,,,,
 Astoria/Ditmas Blvd,,,,,,,,
 Atlantic Av,,,,,,,,
-Atlantic/Barclays Center,1,brooklyn,bdnqr2345,3,,,,
+Atlantic/Barclays Center,1,brooklyn,bdnqr2345,3,,,40.684359,-73.977666
 Avenue 1,,,,,,,,
-Avenue H,1,brooklyn,1,,1,,,
+Avenue H,1,brooklyn,1,,1,,40.62927,-73.961639
 Avenue J,,,,,,,,
 Avenue M,,,,,,,,
 Avenue N,,,,,,,,
@@ -142,7 +142,7 @@ Avenue P,,,,,,,,
 Avenue U,,,,,,,,
 Avenue X,,,,,,,,
 Bay 50 St,,,,,,,,
-Bay Pkwy,1,brooklyn,d,1,,,,
+Bay Pkwy,1,brooklyn,d,1,,,40.601875,-73.993728
 Bay Ridge Av,,,,,,,,
 Bay Ridge/95 St,,,,,,,,
 Baychester Av,,,,,,,,
@@ -155,131 +155,133 @@ Bedford/Nostrand Avs,,,,,,,,
 Bergen St,,,,,,,,
 Beverly rd,,,,,,,,
 Bleecker St,,,,,,,,
-Borough Hall,1,brooklyn,2345,1,,,,
+Borough Hall,1,brooklyn,2345,1,,,40.693219,-73.989998
 Bowery ,,,,,,,,
-Bowling Green,1,manhattan,456,1,,,,
+Bowling Green,1,manhattan,456,1,,,40.704817,-74.014065
 Briarwood,,,,,,,,
 Brighton Beach,,,,,,,,
 Broad Channel,,,,,,,,
 Broad St,,,,,,,,
 Broadway,,,,,,,,
-Broadway - Lafayette St,1,manhattan,6bdfm4,1,,,,
+Broadway - Lafayette St,1,manhattan,6bdfm4,1,,,40.725297,-73.996204
 Broadway Junction,,,,,,,,
 Broadway Junction (East New York),,,,,,,,
 Broadway/Lafayette,,,,,,,,
 Bronx Park East,,,,,,,,
 Brook Av,,,,,,,,
-Brooklyn Bridge/City Hall,1,manhattan,456,1,,,,
+Brooklyn Bridge/City Hall,1,manhattan,456,1,,,40.713065,-74.004131
 Buhre Av,,,,,,,,
 Burke Av,,,,,,,,
 Burnside Av,,,,,,,,
 Bushwick Av/Aberdeen St,,,,,,,,
-Canal St,1,manhattan,2,,,,,
-Canarsie/Rockaway Pkwy,1,brooklyn,l,1,,,,
+Canal St,1,manhattan,1,,,,40.722854,-74.006277
+Canal St,,,,,,,,
+Canal St,,,,,,,,
+Canarsie/Rockaway Pkwy,1,brooklyn,l,1,,,40.646654,-73.90185
 Carroll St,,,,,,,,
 Castle Hill Av,,,,,,,,
 Cathedral Pkwy,,,,,,,,
 Cathedral Pkwy (110 St),,,,,,,,
 Central,,,,,,,,
 Central Park North (110 St),,,,,,,,
-Chambers St,1,manhattan,123,1,,,,
+Chambers St,1,manhattan,123,1,,,40.715478,-74.009266
 Chauncey St,,,,,,,,
 Christopher St/Sheridan Sq,,,,,,,,
-Church Av,1,brooklyn,25,2,1,1,,
-Church Av,1,brooklyn,fg,1,,,,
+Church Av,1,brooklyn,25,2,1,1,40.650843,-73.949575
+Church Av,1,brooklyn,fg,1,,,40.644041,-73.979678
 City Hall,,,,,,,,
 Clark St,,,,,,,,
 Classon Av,,,,,,,,
 Cleveland St,,,,,,,,
 Clinton/Washington Avs,,,,,,,,
-Coney Island/Stillwell Av,1,brooklyn,dfnq,2,,,,
+Coney Island/Stillwell Av,1,brooklyn,dfnq,2,,,40.577422,-73.981233
 Cortelyou Rd,,,,,,,,
-Cortland St,1,manhattan,r,1,,,,
+Cortland St,1,manhattan,r,1,,,40.711835,-74.012188
 Court Sq - 23 St,,,,,,,,
-Court Square,1,queens,7g,1,,,,
+Court Square,1,queens,7g,1,,,40.747023,-73.945264
 Court St,,,,,,,,
 Crescent St,,,,,,,,
-Crown Hts/Utica Av,1,brooklyn,34,1,,,,
+Crown Hts/Utica Av,1,brooklyn,34,1,,,40.668897,-73.932942
 Cypress Av,,,,,,,,
 Cypress Hills,,,,,,,,
-DeKalb Av,1,brooklyn,bqrdn,1,,,,
+DeKalb Av,1,brooklyn,bqrdn,1,,,40.690635,-73.981824
 Delancey/Essex,,,,,,,,
 Ditmas Av,,,,,,,,
-Dyckman St,1,manhattan,1,1,,1,,
+Dyckman St,1,manhattan,1,1,,1,40.860531,-73.925536
 E 143 St/St Mary's St,,,,,,,,
 E 149 St,,,,,,,,
-E 180 St,1,bronx,25,1,,,,
+E 180 St,1,bronx,25,1,,,40.841894,-73.873488
 East 105 St,,,,,,,,
 East Broadway,,,,,,,,
 Eastchester/Dyre Av,,,,,,,,
 Eastern Pkwy/Brooklyn Museum,,,,,,,,
 Elder Av,,,,,,,,
 Elmhurst Av,,,,,,,,
-Euclid Ave,1,brooklyn,ac,1,,,,
-Far Rockaway-Mott Av,1,queens,a,1,,
-Flatbush Av/Brooklyn College,1,brooklyn,25,1,,,,
+Euclid Ave,1,brooklyn,ac,1,,,,xxa,40.675377,-73.872106
+Far Rockaway-Mott Av,1,queens,a,1,40.603995,-73.755405
+Flatbush Av/Brooklyn College,1,brooklyn,25,1,,,40.632836,-73.947642
 Flushing,,,,,,,,
-Flushing - Main St,1,queens,7,1,,,,
-Flushing Av,1,brooklyn,jm,1,,,,
-Fordham Rd,1,bronx,4,1,,,,
+Flushing - Main St,1,queens,7,1,,,40.7596,-73.83003
+Flushing Av,1,brooklyn,jm,1,,,40.70026,-73.941126
+Fordham Rd,1,bronx,4,1,,,40.861296,-73.897749
 Forest,,,,,,,,
-Forest Hills/71 Av,1,queens,efmr,1,,,,
+Forest Hills/71 Av,1,queens,efmr,1,,,40.721691,-73.844521
 Fort Hamilton Pkwy,,,,,,,,
-Franklin Av,1,brooklyn,csa,2,1,1,,
+Franklin Av,1,brooklyn,csa,2,1,1,40.68138,-73.956848
 Franklin St,,,,,,,,
 Freeman St,,,,,,,,
 Fresh Pond,,,,,,,,
-Fulton St,1,manhattan,acjzr2345,1,,,,
+Fulton St,1,manhattan,acjzr2345,1,,,40.710197,-74.007691
 Gates Av,,,,,,,,
 Graham Av,,,,,,,,
 Grand Army Plaza,,,,,,,,
 Grand Av/Newton,,,,,,,,
-Grand Central/42 St,1,manhattan,4567,4,,,,
+Grand Central/42 St,1,manhattan,4567,4,,,40.751776,-73.976848
 Grand St,,,,,,,,
 Grant Ave,,,,,,,,
 Greenpoint Av,,,,,,,,
-Gun Hill Rd,1,bronx,25,1,,,,
+Gun Hill Rd,1,bronx,25,1,,,40.87785,-73.866256
 Halsey St,,,,,,,,
 Harlem/148 St,,,,,,,,
 Hewes St,,,,,,,,
 High Street,,,,,,,,
 Houston St,,,,,,,,
-Howard Beach - JFK Airport,1,queens,a,1,,,,
+Howard Beach - JFK Airport,1,queens,a,1,,,40.660476,-73.830301
 Hoyt St,,,,,,,,
 Hoyt St. - Schermerhorn St.,,,,,,,,
 Hunters Point Av,,,,,,,,
-Hunts Point Av,1,bronx,6,1,,,,
+Hunts Point Av,1,bronx,6,1,,,40.820948,-73.890549
 Intervale Av,,,,,,,,
-Inwood-207th St.,1,manhattan,a,1,,,,
+Inwood-207th St.,1,manhattan,a,1,,,40.868072,-73.919899
 Jackson Av,,,,,,,,
-Jackson Hts/Roosevelt Av,1,queens,efmr,4,2,2,,
-Jamaica 179 St,1,queens,f,1,,,,
-Jamaica Center Parsons/Archer,1,queens,ejz,1,,,,
-Jamaica Van Wyck,1,queens,e,1,,,,
-Jay St/MetroTech,1,brooklyn,acfrn,1,,,,
+Jackson Hts/Roosevelt Av,1,queens,efmr,4,2,2,40.746644,-73.891338
+Jamaica 179 St,1,queens,f,1,,,40.712646,-73.783817
+Jamaica Center Parsons/Archer,1,queens,ejz,1,,,40.702147,-73.801109
+Jamaica Van Wyck,1,queens,e,1,,,40.702566,-73.816859
+Jay St/MetroTech,1,brooklyn,acfrn,1,,,40.69218,-73.985942
 Jefferson St,,,,,,,,
-Junction Blvd,1,queens,7,3,1,1,,
+Junction Blvd,1,queens,7,3,1,1,40.749145,-73.869527
 Junius St,,,,,,,,
-Kew Gardens Union Tpke,1,queens,ef,1,,,,
-Kings Hwy,1,brooklyn,bq,1,,,,
-Kingsbridge Rd,1,bronx,bd,1,,,,
+Kew Gardens Union Tpke,1,queens,ef,1,,,40.714441,-73.831008
+Kings Hwy,1,brooklyn,bq,1,,,40.60867,-73.957734
+Kingsbridge Rd,1,bronx,bd,1,,,40.866978,-73.893509
 Kingston Av,,,,,,,,
 Kingston Throop Avs,,,,,,,,
 Knickerbocker,,,,,,,,
 Kosciuszko St,,,,,,,,
 Lafayette Av,,,,,,,,
 Lexington Av/59 St,,,,,,,,
-Lexington Av/53 St,1,manhattan,,,,,,
-Lexington Av/63 St,1,manhattan,f,1,,,,
+Lexington Av/53 St,1,manhattan,,,,,40.757552,-73.969055
+Lexington Av/63 St,1,manhattan,f,1,,,40.764629,-73.966113
 Liberty Av,,,,,,,,
 Livonia Av,,,,,,,,
 Longwood Av,,,,,,,,
 Lorimer St,,,,,,,,
 Marble Hill/225 St,,,,,,,,
-Marcy Av,1,brooklyn,jmz,1,,,,
+Marcy Av,1,brooklyn,jmz,1,,,40.708359,-73.957757
 Metropolitan Av,,,,,,,,
 Mets - Willets Point,,,,,,,,
-Middle Village/Metropolitan,1,queens,m,0,,,,
+Middle Village/Metropolitan,1,queens,m,0,,,40.711396,-73.889601
 Middletown Rd,,,,,,,,
 Montrose Av,,,,,,,,
 Morgan Av,,,,,,,,
@@ -289,7 +291,7 @@ Moshulu Pkwy,,,,,,,,
 Mt Eden Av,,,,,,,,
 Myrtle Av,,,,,,,,
 Myrtle/Willoughby Avs,,,,,,,,
-Myrtle/Wyckoff,1,brooklyn,lm,1,,,,
+Myrtle/Wyckoff,1,brooklyn,lm,1,,,40.69943,-73.912385
 Nassau Av,,,,,,,,
 Neck Rd,,,,,,,,
 Neptune Av,,,,,,,,
@@ -305,45 +307,45 @@ Norwood 205 St,,,,,,,,
 Norwood Av,,,,,,,,
 Nostrand Ave,,,,,,,,
 Ocean Pkwy,,,,,,,,
-Ozone Park-Lefferts Blvd,1,queens,a,1,,
-Park Place,1,brooklyn,s,0,,,,
+Ozone Park-Lefferts Blvd,1,queens,a,1,40.685951,-73.825798
+Park Place,1,brooklyn,s,0,,,40.674772,-73.957624
 Parkchester,,,,,,,,
 Parkside Av,,,,,,,,
 Parsons Blvd,,,,,,,,
-Pelham Bay Park,1,bronx,6,1,,,,
-Pelham Parkway,1,bronx,25,1,,,,
+Pelham Bay Park,1,bronx,6,1,,,40.852462,-73.828121
+Pelham Parkway,1,bronx,25,1,,,40.857192,-73.867615
 Pennsylvania Av,,,,,,,,
 President St,,,,,,,,
 Prince St,,,,,,,,
 Prospect Av,,,,,,,,
-Prospect Park,1,brooklyn,bqs,1,,,,
-Queens Plaza,1,queens,emr,1,,,,
+Prospect Park,1,brooklyn,bqs,1,,,40.661614,-73.962246
+Queens Plaza,1,queens,emr,1,,,40.748973,-73.937243
 Queensboro Plaza,,,,,,,,
 Ralph Av,,,,,,,,
 Rector St,,,,,,,,
 Rockaway Av,,,,,,,,
 Rockaway Blvd., 88th St., 80th St.,,,,,,,,
-Rockaway Park/Beach 116th St.,1,queens,a,0,,,,
-Roosevelt Island,1,manhattan,f,1,,,,
+Rockaway Park/Beach 116th St.,1,queens,a,0,,,40.580903,-73.835592
+Roosevelt Island,1,manhattan,f,1,,,40.759145,-73.95326
 Saratoga Av,,,,,,,,
 Seneca,,,,,,,,
 Sheepshead Bay,,,,,,,,
 Shepherd Av,,,,,,,,
-Simpson St,1,bronx,25,2,1,1,,
+Simpson St,1,bronx,25,2,1,1,40.824073,-73.893064
 Smith/9 Sts,,,,,,,,
-South Ferry,,manhattan,1,,,,,
+South Ferry,,manhattan,1,,,,40.702068,-74.013664
 Spring St,,,,,,,,
 St Lawrence Av,,,,,,,,
 Steinway St,,,,,,,,
 Sterling St,,,,,,,,
 Sutphin Blvd,,,,,,,,
-Sutphin Blvd/Archer Av/JFK Airport,1,queens,ejz,1,,,,
+Sutphin Blvd/Archer Av/JFK Airport,1,queens,ejz,1,,,40.700486,-73.807969
 Sutter Av,,,,,,,,
 Sutter Av - Rutland Rd,,,,,,,,
-Times Sq-42 St,1,manhattan,nqrw1237,1,,,,
+Times Sq-42 St,1,manhattan,nqrw1237,1,,,40.754672,-73.986754
 Tremont Av,,,,,,,,
 Union St,,,,,,,,
-Utica Av,1,brooklyn,ac,1,,,,
+Utica Av,1,brooklyn,ac,1,,,40.679364,-73.930729
 Van Cortlandt Park/242 St,,,,,,,,
 Van Siclen Av,,,,,,,,
 Vernon Blvd/Jackson Av,,,,,,,,
@@ -352,16 +354,16 @@ Wakefield/241 St,,,,,,,,
 Wall St,,,,,,,,
 Washington Hts - 168th St. ,,,,,,,,
 West 4/Washington Square,,,,,,,,
-West 4th St.,1,manhattan,abcdefm,2,,,,
+West 4th St.,1,manhattan,abcdefm,2,,,40.732338,-74.000495
 West 8 St/NY Aquarium,,,,,,,,
 West Farms Sq/E Tremont Av,,,,,,,,
 Westchester Sq/East Tremont Av,,,,,,,,
 Whitehall St/South Ferry,,,,,,,,
 Whitlock Av,,,,,,,,
-Wilson Av,1,brooklyn,l,0,,,,
+Wilson Av,1,brooklyn,l,0,,,40.688764,-73.904046
 Winthrop St,,,,,,,,
 Woodhaven Blvd,,,,,,,,
 Woodlawn,,,,,,,,
-World Trade Center,1,manhattan,e,1,,,,
+World Trade Center,1,manhattan,e,1,,,40.712582,-74.009781
 York St,,,,,,,,
 Zerega Av,,,,,,,,
